@@ -1,22 +1,125 @@
 <!DOCTYPE html>
-<html lang = "en">
-    <head>
-        <link href = "./resources/CSS/index.css" rel = "stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <title>Team5684</title>
-    </head>
-    <body>
-        <div id = "topPage">
-          <h1>Team 5684, Iron Mechs</h1>
-        </div>
-        <div class="topnav">
-          <a href="#home">Home</a>
-          <a href="https://www.thebluealliance.com/team/5684" target = "_blank">Statistics</a>
-          <a href="https://www.firstinspires.org/" target = "_blank">FRC</a>
-          <a href= "" target = "_blank">Sponsors</a>
-        </div>
-        <div id = "Images">
-          <img src = "./resources/Images/retro5684.jpg"  width="500" height="600">
-        </div>
-    </body>
-</html> 
+<html lang="en">
+
+<head>
+  <link href="./resources/CSS/index.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Team5684</title>
+  <style>
+    body {
+      background-color: grey;
+    }
+
+
+    #topPage {
+      background-color: navy;
+      display : flex;
+      gap: 50px;
+      width: 60%;
+      border: 15px black;
+      padding: 30px;
+      margin: 15px;
+      max-width: fit-content;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    h1 {
+      color:white;
+      background-color: red;
+      font-size: 60px;
+      text-align: center;
+      font-family: "Lucida Console", "Courier New", monospace;
+    }
+
+    h2 {
+      color: lightcoral;
+      font-size: 14px;
+      font-family: "Gill Sans Extrabold", sans-serif;
+      text-align: center;
+      font-family: "Lucida Console", "Courier New", monospace;
+    }
+
+    p {
+      color: lightblue;
+    }
+
+    #Images {
+      text-align: center;
+      width: 150px;
+      padding-left: 150px;
+    }
+    .container {
+      display : flex;
+      margin-left: 352px;
+      gap: 50px;
+    }
+    .container2 {
+      display : block;
+    }
+    label {
+      color : navy;
+    }
+
+
+    .topnav {
+      overflow: hidden;
+      width : 60%;
+      max-width: 150px;
+      margin-bottom: 20px;
+    }
+
+    /* Style the links inside the navigation bar */
+    .topnav a {
+      background-color: #eee;
+      color: black;
+      display: block;
+      padding: 12px;
+      text-decoration: none;
+    }
+
+    /* Change the color of links on hover */
+    .topnav a:hover {
+      background-color: lightblue;
+      color: white;
+    }
+
+    /* Add a color to the active/current link */
+    .topnav a.active {
+      background-color: blue;
+      color: white;
+    }
+
+    .topnav a.active a:hover {
+      background-color: lightblue;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="topPage">
+    <h1>Team 5684, Titans of Tech</h1>
+    <img src="./resources/Images/titansoftechlogo.jpg" width="150" height="200">
+  </div>
+  <div class = container>
+    <div class = container2> 
+      <div class="topnav">
+        <a href="#home">Home</a>
+        <a href="https://www.thebluealliance.com/team/5684" target="_blank">Statistics</a>
+        <a href="https://www.firstinspires.org/" target="_blank">FRC</a>
+        <a href="" target="_blank">Sponsors</a>
+      </div>
+      <form>
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email"><br>
+        <label for="password">Password:</label><br>
+        <input type="text" id="lname" name="lname"><br><br>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+      <img src="./resources/Images/retro5684.jpg" width="500" height="600">
+    </div>
+  </div>
+</body>
+</html>
