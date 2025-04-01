@@ -7,8 +7,8 @@ import {
   Route,
   Outlet
 } from "react-router-dom";
-import "./index.css";
-import Test from "./routes/Test"
+import "./CSS/index.css";
+import Login from "./routes/Login"
 import ErrorPage from "./error_page";
 import Games from "./routes/Games"
 import ScoutingPlatform from "./routes/ScoutingPlatform"
@@ -31,8 +31,8 @@ const router = createBrowserRouter([
         element: <App/>,
       },
       {
-        path: "Test",
-        element: <Test/>,
+        path: "Login",
+        element: <Login/>,
       },
       {
         path: "ScoutingPlatform",
