@@ -12,6 +12,7 @@ import Login from "./routes/Login"
 import ErrorPage from "./error_page";
 import Games from "./routes/Games"
 import ScoutingPlatform from "./routes/ScoutingPlatform"
+import Register from "./routes/Register"
 import Navbar from "./components/Navbar";
 import App from "./App";
 
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
       {
         path: "Login",
         element: <Login/>,
+      },
+      {
+        path: "Register",
+        element: <Register/>,
       },
       {
         path: "ScoutingPlatform",

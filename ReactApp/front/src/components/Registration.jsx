@@ -1,23 +1,20 @@
 import React from 'react'
 import '../CSS/Signin.css';
 
-function Signin(){
+function Registration(){
     return (
         <div className="main-container">
             <div class="form-container">
-            <h1>Member Login</h1>
+            <h1>Registration</h1>
             <form>
                 <input type="text" placeholder="Email" />
                 <input type="password" placeholder="Password" />
+                <input type="text" placeholder="Name" />
+                <input type="number" placeholder="Grade" />
                 <button class="opacity">SUBMIT</button>
             </form>
-            <div class="register-forget opacity">
-                <a href="">Sign Up</a>
-                <a href="">Forgot Credentials</a>
-            </div>
         </div>
         </div>
-
     );
 }
-export default Signin;
+export default Registration;

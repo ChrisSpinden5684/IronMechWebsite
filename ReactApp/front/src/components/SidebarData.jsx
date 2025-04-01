@@ -15,7 +15,13 @@ export const SideBarData = [
         path: "/Login",
         icons: <AiIcons.AiFillBook/>,
         cName: "nav-text",
-    }, 
+    },
+    {
+        title: "Register",
+        path: "/Register",
+        icons: <AiIcons.AiFillBook/>,
+        cName: "nav-text",
+    },  
     {
         title: "Games",
         path: "/Games",
