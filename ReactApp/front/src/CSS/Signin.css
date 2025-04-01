@@ -2,6 +2,7 @@
 
 /* Style for the form container */
 .main-container{
+    z-index: 0;
     display:flex;
     height: 50vh;
     align-items: center;
