@@ -4,37 +4,45 @@ import {
   createBrowserRouter,
   RouterProvider,
   Link,
+  Route,
+  Outlet
 } from "react-router-dom";
 import "./index.css";
-import Home from "./routes/Home"
+import Test from "./routes/Test"
 import ErrorPage from "./error_page";
 import Games from "./routes/Games"
 import ScoutingPlatform from "./routes/ScoutingPlatform"
-import Root from "./routes/root";
+import Navbar from "./components/Navbar";
+import App from "./App";
 
+const AppLayout = () => (
+    <>
+    <Navbar />
+    <Outlet />
+    </>
 
+);
 const router = createBrowserRouter([
   {
-    path: "/",
-    element:(
-    <Root/>
-    
-  ),
-    errorElement: <ErrorPage />,
-  },
-  {
-    path: "Home",
-    element: <Home/>,
-    errorElement: <ErrorPage />,
-  },
-  {
-    path: "ScoutingPlatform",
-    element: <ScoutingPlatform/>,
-    
-  },
-  {
-    path: "Games",
-    element: <Games/>
+    element: <AppLayout />,
+    children: [
+      {
+        path: "/",
+        element: <App/>,
+      },
+      {
+        path: "Test",
+        element: <Test/>,
+      },
+      {
+        path: "ScoutingPlatform",
+        element: <ScoutingPlatform/>,
+      },
+      {
+        path: "Games",
+        element: <Games/>
+      },
+    ],
   },
 ]);
 
