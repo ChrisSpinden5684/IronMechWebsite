@@ -13,7 +13,7 @@ function Navbar() {
   
     return (
       <>
-        <IconContext.Provider value={{ color: "blue" }}>
+        <IconContext.Provider value={{ color: "undefined" }}>
           <div className="navbar">
             <Link to="#" className="menu-bars">
               <FaIcons.FaBars onClick={showSidebar} />
@@ -30,7 +30,7 @@ function Navbar() {
                 return (
                   <li key={index} className={item.cName}>
                     <Link to={item.path}>
-                      {item.icon}
+                      {item.icons}
                       <span>{item.title}</span>
                     </Link>
                   </li>
