@@ -29,7 +29,7 @@ export const SideBarData = [
         cName: "nav-text",
     },
     {
-        title: "ScoutingPlatform",
+        title: "Scouting Platform",
         path: "/ScoutingPlatform",
         icons: <AiIcons.AiFillBook/>,
         cName: "nav-text",

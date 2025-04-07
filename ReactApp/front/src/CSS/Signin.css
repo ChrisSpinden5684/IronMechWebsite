@@ -63,6 +63,27 @@ h1{
 .register-forget a:hover {
     text-decoration: underline;
 }
+.reg-checkbox{
+    display: flex;
+    align-items:center;
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: black;
+}
+.reg-checkbox span {
+   white-space: nowrap;
+   margin: 0;
+   font-weight: bold;
+}
+.checkbox-label {
+    margin-left: 40px;
+    align-items: center; /* Optional: space between checkboxes */
+}
+
+.checkbox-input {
+    margin-right: 10px;
+    transform: scale(10);/* Space between checkbox and label text */
+  }
 
 /* Optional: Add opacity for elements that have the opacity class */
 .opacity {
