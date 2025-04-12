@@ -1,7 +1,6 @@
 .Games{
     z-index: 0;
     display:flex;
-    height: 60vh;
     align-items: center;
     justify-content: center;
 }
@@ -37,5 +36,6 @@
 .grid-container{
     display: grid;
     grid-template-columns: repeat(3, .15fr); /* 3 columns */
-    grid-template-rows: repeat(2, .15fr);  
+    grid-template-rows: repeat(2, .15fr);
+    margin-bottom: 30px;
 }
