@@ -3,7 +3,6 @@ import Grid from "../components/SpotifyGrid.jsx"
 import '../CSS/Spotify.css';
 
 function Games(){
-    const [isSubmitted, setIsSubmitted] = useState(false);
     const [showComponents, setComponents] = useState([]);
     const guessNum = showComponents.length;
     const formRef = useRef(null);
