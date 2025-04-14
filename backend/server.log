@@ -1,0 +1,65 @@
+2025-04-14 15:08:11 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-14 15:08:11 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-14 15:08:11 - INFO -  * Restarting with stat
+2025-04-14 15:08:12 - WARNING -  * Debugger is active!
+2025-04-14 15:08:12 - INFO -  * Debugger PIN: 874-606-425
+2025-04-14 15:08:28 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-14 15:08:28 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-14 15:08:28 - INFO -  * Restarting with stat
+2025-04-14 15:08:28 - WARNING -  * Debugger is active!
+2025-04-14 15:08:28 - INFO -  * Debugger PIN: 874-606-425
+2025-04-14 15:09:52 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-14 15:09:52 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-14 15:09:52 - INFO -  * Restarting with stat
+2025-04-14 15:09:53 - WARNING -  * Debugger is active!
+2025-04-14 15:09:53 - INFO -  * Debugger PIN: 874-606-425
+2025-04-14 15:10:13 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-14 15:10:13 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-14 15:10:13 - INFO -  * Restarting with stat
+2025-04-14 15:10:13 - WARNING -  * Debugger is active!
+2025-04-14 15:10:13 - INFO -  * Debugger PIN: 874-606-425
+2025-04-14 15:10:22 - INFO - 127.0.0.1 - - [14/Apr/2025 15:10:22] "[33mGET / HTTP/1.1[0m" 404 -
+2025-04-14 15:10:32 - INFO -  * Detected change in 'C:\\Users\\chris\\CodingProjects\\WebProjects\\IronMechWebsite\\backend\\server.py', reloading
+2025-04-14 15:10:33 - INFO -  * Restarting with stat
+2025-04-14 15:10:46 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-14 15:10:46 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-14 15:10:46 - INFO -  * Restarting with stat
+2025-04-14 15:10:47 - WARNING -  * Debugger is active!
+2025-04-14 15:10:47 - INFO -  * Debugger PIN: 874-606-425
+2025-04-14 15:12:23 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-14 15:12:23 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-14 15:12:23 - INFO -  * Restarting with stat
+2025-04-14 15:12:24 - WARNING -  * Debugger is active!
+2025-04-14 15:12:24 - INFO -  * Debugger PIN: 874-606-425
+2025-04-14 15:13:07 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-14 15:13:07 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-14 15:13:07 - INFO -  * Restarting with stat
+2025-04-14 15:13:07 - WARNING -  * Debugger is active!
+2025-04-14 15:13:07 - INFO -  * Debugger PIN: 874-606-425
+2025-04-14 15:13:09 - INFO -  * Detected change in 'C:\\Users\\chris\\CodingProjects\\WebProjects\\IronMechWebsite\\backend\\server.py', reloading
+2025-04-14 15:13:09 - INFO -  * Restarting with stat
+2025-04-14 15:15:18 - WARNING -  * Debugger is active!
+2025-04-14 15:15:18 - INFO -  * Debugger PIN: 874-606-425
+2025-04-14 15:15:45 - INFO -  * Detected change in 'C:\\Users\\chris\\CodingProjects\\WebProjects\\IronMechWebsite\\backend\\server.py', reloading
+2025-04-14 15:15:46 - WARNING -  * Debugger is active!
+2025-04-14 15:15:46 - INFO -  * Debugger PIN: 874-606-425
+2025-04-14 15:23:26 - INFO -  * Detected change in 'C:\\Users\\chris\\CodingProjects\\WebProjects\\IronMechWebsite\\backend\\logs.py', reloading
+2025-04-14 15:24:08 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-14 15:24:08 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-14 15:24:08 - INFO -  * Restarting with stat
+2025-04-14 15:24:09 - WARNING -  * Debugger is active!
+2025-04-14 15:24:09 - INFO -  * Debugger PIN: 874-606-425
+2025-04-14 15:25:16 - INFO -  * Detected change in 'C:\\Users\\chris\\CodingProjects\\WebProjects\\IronMechWebsite\\backend\\logs.py', reloading
+2025-04-14 15:25:16 - INFO -  * Restarting with stat
+2025-04-14 15:28:48 - INFO - Successful Team Search!
+2025-04-14 15:31:10 - INFO - Successful Team Search!
+2025-04-14 15:31:31 - INFO - Successful Team Search!
+2025-04-14 15:34:03 - INFO - Successful Team Search for 66

@@ -3,12 +3,17 @@ import requests
 from flask import Flask, jsonify, request
 from flask_cors import CORS
 from dotenv import load_dotenv
+import logs
 
 load_dotenv()
-
+#Flask App
 app = Flask(__name__)
+#React App
 CORS(app)
+#Logger Object
+logger = logs.get_logger(__name__)
 
+#Gets keys for API Calls
 CLIENT_ID = os.getenv("CLIENT_ID")
 CLIENT_SECRET = os.getenv("CLIENT_SECRET")
 TBA_AUTH_KEY = os.getenv("TBA_AUTH_KEY")
@@ -51,6 +56,7 @@ def search_frc_team(team_num):
     }
 
     r = requests.get(url, headers=headers)
+    logger.info(f'Successful Team Search for Team {team_num}')
     return jsonify(r.json())
 
 def parse_artist_data(data):
@@ -67,9 +73,9 @@ def parse_artist_data(data):
             "spotify_url": artist['external_urls']['spotify']
         }
     except Exception as e:
-        print(F"Unexcepted Error: {e}, {type(e)=}")
-        return data
+        logger.error("Parsing Data Failed.")
     else:
+        logger.info("Parsing Successful")
         return temp
 
     
