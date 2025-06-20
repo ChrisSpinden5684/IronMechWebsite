@@ -1,0 +1,10 @@
+import React from 'react'
+import '../CSS/Signin.css';
+import RegistrationPanel from "../components/Registration.jsx"
+
+function Register(){
+    return (
+        <RegistrationPanel />
+    );
+}
+export default Register;
